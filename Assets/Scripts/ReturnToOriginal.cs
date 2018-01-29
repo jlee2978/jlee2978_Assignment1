@@ -44,7 +44,6 @@ public class ReturnToOriginal : MonoBehaviour
     GameObject GetClickedGameObject()
     {
         // Get the clicked object, if any
-
         // Builds a ray from camera point of view to the mouse position
         // when a clicking takes place
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
