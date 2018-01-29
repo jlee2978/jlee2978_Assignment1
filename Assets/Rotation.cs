@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Rotation : MonoBehaviour {
+public class Rotation : MonoBehaviour
+{
     void OnMouseDown()
     {
         string objectName = transform.gameObject.name;
